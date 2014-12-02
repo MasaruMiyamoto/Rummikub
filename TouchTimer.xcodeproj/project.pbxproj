@@ -14,6 +14,9 @@
 		78A25B3C1A27277300F7EAFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A25B3B1A27277300F7EAFA /* Images.xcassets */; };
 		78A25B3F1A27277300F7EAFA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78A25B3D1A27277300F7EAFA /* LaunchScreen.xib */; };
 		78A25B4B1A27277300F7EAFA /* TouchTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A25B4A1A27277300F7EAFA /* TouchTimerTests.m */; };
+		78AF82141A286DA100BD67A8 /* StartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 78AF82131A286DA100BD67A8 /* StartView.m */; };
+		78AF82181A2D76D800BD67A8 /* o015001491345612740462.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 78AF82171A2D76D800BD67A8 /* o015001491345612740462.jpg */; };
+		78AF821A1A2D78BE00BD67A8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78AF82191A2D78BE00BD67A8 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		78A25B441A27277300F7EAFA /* TouchTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78A25B491A27277300F7EAFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78A25B4A1A27277300F7EAFA /* TouchTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchTimerTests.m; sourceTree = "<group>"; };
+		78AF82121A286DA100BD67A8 /* StartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartView.h; path = ../StartView.h; sourceTree = "<group>"; };
+		78AF82131A286DA100BD67A8 /* StartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartView.m; path = ../StartView.m; sourceTree = "<group>"; };
+		78AF82171A2D76D800BD67A8 /* o015001491345612740462.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = o015001491345612740462.jpg; sourceTree = "<group>"; };
+		78AF82191A2D78BE00BD67A8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78AF821A1A2D78BE00BD67A8 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +71,7 @@
 		78A25B221A27277300F7EAFA = {
 			isa = PBXGroup;
 			children = (
+				78AF82191A2D78BE00BD67A8 /* AudioToolbox.framework */,
 				78A25B2D1A27277300F7EAFA /* TouchTimer */,
 				78A25B471A27277300F7EAFA /* TouchTimerTests */,
 				78A25B2C1A27277300F7EAFA /* Products */,
@@ -85,6 +94,8 @@
 				78A25B331A27277300F7EAFA /* AppDelegate.m */,
 				78A25B351A27277300F7EAFA /* ViewController.h */,
 				78A25B361A27277300F7EAFA /* ViewController.m */,
+				78AF82121A286DA100BD67A8 /* StartView.h */,
+				78AF82131A286DA100BD67A8 /* StartView.m */,
 				78A25B381A27277300F7EAFA /* Main.storyboard */,
 				78A25B3B1A27277300F7EAFA /* Images.xcassets */,
 				78A25B3D1A27277300F7EAFA /* LaunchScreen.xib */,
@@ -96,6 +107,7 @@
 		78A25B2E1A27277300F7EAFA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				78AF82171A2D76D800BD67A8 /* o015001491345612740462.jpg */,
 				78A25B2F1A27277300F7EAFA /* Info.plist */,
 				78A25B301A27277300F7EAFA /* main.m */,
 			);
@@ -200,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				78A25B3A1A27277300F7EAFA /* Main.storyboard in Resources */,
+				78AF82181A2D76D800BD67A8 /* o015001491345612740462.jpg in Resources */,
 				78A25B3F1A27277300F7EAFA /* LaunchScreen.xib in Resources */,
 				78A25B3C1A27277300F7EAFA /* Images.xcassets in Resources */,
 			);
@@ -222,6 +235,7 @@
 				78A25B371A27277300F7EAFA /* ViewController.m in Sources */,
 				78A25B341A27277300F7EAFA /* AppDelegate.m in Sources */,
 				78A25B311A27277300F7EAFA /* main.m in Sources */,
+				78AF82141A286DA100BD67A8 /* StartView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +426,7 @@
 				78A25B501A27277300F7EAFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		78A25B511A27277300F7EAFA /* Build configuration list for PBXNativeTarget "TouchTimerTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +435,7 @@
 				78A25B531A27277300F7EAFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

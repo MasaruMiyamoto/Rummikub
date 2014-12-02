@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "StartView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    NSString *setLabel;
+}
+
+@property (nonatomic) NSString *setLabel;
 
 
 @end
